@@ -502,7 +502,7 @@ task.spawn(
     function()
         while true do
             wait(0.45)
-            Chat("JOIN OUR GROUP fbigov TO BE WHITELISTED | RAIDED BY flixqtt")
+            Chat("RAIDED BY THE FBIGOV GROUP AND flixqtt")
         end
     end
 )
