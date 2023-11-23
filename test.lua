@@ -59,7 +59,7 @@ BlacklistedPlayers, WhitelistedPlayers, ModsTable, kroneTable, BLSV, WLSV, MDSV,
     false,
     false
 Settings = {ServerHops = 1, Distance = 18, Globals = {"Executions", "List"}}
-Blacklist, kroneUserids = {}, {3962749151,2710705873,3032358814,1905024045,1236868379,2649426480,844809534,1616886238,2397598238,2417942431,3561203223}
+Blacklist, kroneUserids = {}, {3962749151,2710705873,3032358814,1905024045,1236868379,2649426480,844809534,1616886238,2397598238,2417942431,3561203223,1390088832,5030038088}
 
 if (type(getgenv()[Settings["Globals"][1]]) == "number" and getgenv()[Settings["Globals"][1]] > 0) then
     getgenv()[Settings["Globals"][1]] = getgenv()[Settings["Globals"][1]] + 1
@@ -502,7 +502,7 @@ task.spawn(
     function()
         while true do
             wait(0.45)
-            Chat("RAIDED BY THE FBIGOV GROUP AND flixqtt ;D")
+            Chat("THE NEW SO CRYING GAME HAS BEEN RELEASED | SEARCH THE GROUP FBIGOV AND GO TO GAMES")
         end
     end
 )
