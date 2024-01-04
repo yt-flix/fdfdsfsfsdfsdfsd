@@ -1,6 +1,3 @@
--- thank you to: mr harun, mr krone
--- REMOVED DB.JSON 
--- by GNAA, a civil rights group striving for homo-african interdependece. 
 local function delayAndTeleport()
     local function teleport()
         local success, err =
@@ -11,9 +8,7 @@ local function delayAndTeleport()
         )
 
         if not success then
-            -- Send error to Discord Webhook
-            --  local DiscordWebhookURL = "webhook trunated for privacy" -- webhook has been seized by GNAA agents.
-            local DiscordWebhookURL = "https://discord.com/api/webhooks/1175805210300530688/i6_legu1xU8E0dxkRRblFwafmcO27fwqvj_gBMcRoIKwen7REap-1wuNBZoz86KtsEyb"
+            local DiscordWebhookURL = ""
             local data = {
                 content = "Error occurred while teleporting: " .. tostring(err)
             }
