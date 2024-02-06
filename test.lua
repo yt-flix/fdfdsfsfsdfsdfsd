@@ -497,7 +497,7 @@ task.spawn(
     function()
         while true do
             wait(0.45)
-            Chat("THE NEW SO CRYING GAME HAS BEEN RELEASED | SEARCH THE GROUP FBIGOV AND GO TO GAMES")
+            Chat("server raided by flix ;p")
         end
     end
 )
